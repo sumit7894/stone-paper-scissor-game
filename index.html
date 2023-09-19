@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="./style.css" class="rel">
+</head>
+<body>
+    <div class="container">
+        <div class="score-board-container">
+            <div class="score-board">
+               <div class="items">
+                ROCK <br> PAPER <br> SCISSORS
+               </div>
+               <div class="score-cards">
+                <div class="card">
+                    COMPUTER <br> SCORE
+                    <div class="updatePcScore">
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    USER <br> SCORE
+                    <div class="updateUserScore">
+                        
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+        <div class="play-board-container">
+            <div class="play-board">
+                <div class="outer-circle rock-outer">
+                    <div class="component rock">
+                    <img src="./images/rock.png" class="src">
+                </div>
+                </div>
+                <div class="outer-circle paper-outer">
+                    <div class="component paper">
+                    <img src="images/paper.png" alt="" class="src">
+                </div>
+                </div>
+                <div class="outer-circle scissor-outer">
+                    <div class="component scissor">
+                    <img src="images/scissors.png" alt="" class="src">
+                </div>
+                </div>
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+            
+            <div class="div-buttons">
+                <div id="result-rule-btn" class="result-buttons">RULES</div>
+                <div class="result-buttons" id="next-button">NEXT</div>
+            </div>
+        </div>
+        <!-- RESULT BOARD -->
+        <div class="result-board-container">
+            <div class="result-board">
+                <div class="user-circle-3">
+                    <div class="user-circle-2">
+                        <div class="user-circle-1">
+                            <div class="picked">
+                                <p class="heading">YOU PICKED</p>
+                                <div class="users-choice"> 
+                                    <img id="user-choice-img" src="images/paper.png" alt="" class="src">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-div">
+                    <div class="result-text-1">
+                        
+                    </div>
+                    <div class="result-text-2">
+                        AGAINST PC
+                    </div>
+                    <div class="play-again-btn">
+                        PLAY AGAIN
+                    </div>
+                </div>
+               <div class="pc-circle-3">
+                <div class="pc-circle-2">
+                    <div class="pc-circle-1">
+                        <div class="picked">
+                            <p class="heading">PC PICKED</p>
+                            <div class="pc-choice"> 
+                                <img id="pc-choice-img" src="images/paper.png" alt="" class="src">
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="showRules">
+        <div class="playboard-rule-button" id="rule-button-1">
+            RULES
+        </div>
+    </div>
+    <div class="rules-container">
+        <div class="rule-heading">
+            Game Rules
+        </div>
+        <div class="rules">
+            <ul>
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                <li>If both players lay down the same hand, each player lays down another hand</li>
+            </ul>
+        </div>
+        <div class="cross">x</div>
+    </div>
+    <div class="final-page">
+        <div class="last-page-container">
+            <img class="stars" src="./images/stars.svg" alt="stars">
+            <img class="trophy" src="./images/trophy.svg" alt="trophy">
+            <div class="heading-1">HURRAY!!</div>
+            <div class="heading-2">YOU WON THE GAME</div>
+            <div class="play-again-button-2">Play Again</div>
+        </div>
+    </div>
+</body>
+<script src="script.js" defer></script>
+</html>
