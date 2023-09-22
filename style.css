@@ -5,10 +5,12 @@
     background-color:#8CC461;
     font-family: "Roboto", sans-serif;
 }
+/* <!!----------FIRST PAGE-------------------------> */
 .container{
     width: 100%;
     height: 100vh;
 }
+/* <!!!!!!!!----------SCORE BOARD---------------------> */
 .score-board-container{
     width: 100%;
     display: flex;
@@ -35,7 +37,6 @@
     flex-direction: row;
     justify-content: space-between;
     width: 270px;
-    
 }
 .card{
     height: 115px;
@@ -63,14 +64,20 @@
     width: 100%;
     margin-top: 40px;
     justify-content: center;
-    /* background-color: red; */
-    
+}
+.paper:hover{
+    transform: scale(1.1);
+}
+.rock:hover{
+    transform: scale(1.1);
+}
+.scissor:hover{
+    transform: scale(1.1);
 }
 .play-board{
     position: relative;
     width: 400px;
     height: 355px;
-    /* background-color: red; */
 }
 /* <!!!!!=============Play-Board=================!!!!!> */
 .outer-circle{
@@ -114,8 +121,7 @@
     background-color: #BD00FF;
 }
 .line{
-    
-    position: absolute;
+  position: absolute;
   width: 250px;
   height: 0px;
   border: 7px solid #000000a3;
@@ -183,10 +189,10 @@
     font-weight: 400;
     font-size: 3rem;
     text-align: center;
-    /* display: none;    */
 }
 .cross:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 .div-buttons{
     position: absolute;
@@ -194,7 +200,6 @@
     flex-direction: row;
     width: 16rem;
     bottom: 4%;
-    /* background-color: red; */
     right: 4%;
     justify-content: space-between;
 }
@@ -228,9 +233,11 @@
 }
 .result-buttons:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 .playboard-rule-button:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 /* RESULT BOARD */
@@ -244,13 +251,11 @@
 }
 .result-board{
     position: absolute;
-    /* top: 20%; */
     left: 20%;
     display: flex;
     align-items: center;
     width: 800px;
     justify-content: space-between;
-    /* background-color: black; */
 }
 .users-choice{
     height: 8rem;
@@ -285,13 +290,10 @@
     font-weight: 500;
     letter-spacing: 0.1rem;
     color: white;
-    /* background-color: blue; */
 }
 .heading{
     position: absolute;
-    /* left: 20px; */
     top: -40%;
-    
 }
 .pc-choice{
     height: 8rem;
@@ -335,6 +337,7 @@
 }
 .play-again-btn:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 .hideDiv{
     display: none;
@@ -359,7 +362,6 @@
     top: 0;
     left: 0;
     z-index: -2;
-    /* display: none; */
 }
 .stars{
     position: absolute;
@@ -380,7 +382,6 @@
     letter-spacing: 10%;
     font-size: 40px;
     font-weight: 600;
-    /* padding-bottom: 5rem; */
 }
 .play-again-button-2{
     display: flex;
@@ -397,4 +398,5 @@
 }
 .play-again-button-2:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
