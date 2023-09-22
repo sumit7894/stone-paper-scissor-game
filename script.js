@@ -34,13 +34,7 @@ resultButtons.classList.add("hideDiv");
 lastPageDiv.classList.add("hideDiv");
 rulesContainer.style.display="none";
 
-// finalPage.classList.add("hideDiv");
 function hideLastPage(){
-// stars.classList.add("hideDiv");
-// trophy.classList.add("hideDiv");
-// heading1.classList.add("hideDiv");
-// heading2.classList.add("hideDiv");
-// playAgainButton2.style.display="none";
 finalPage.classList.add("hideDiv");
 }
 hideLastPage();
